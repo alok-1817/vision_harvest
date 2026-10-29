@@ -1,0 +1,12 @@
+# Runtime — ONIONVISION FastAPI + YOLOv8 (Python 3.12, CPU).
+# Versions match the verified local stack where pinned.
+opencv-python==4.14.0.94
+ultralytics==8.4.145
+numpy==2.5.3
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+
+# Local annotation only (not used by the API; omit in Docker):
+# labelImg==1.8.6
