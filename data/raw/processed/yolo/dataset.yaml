@@ -1,0 +1,11 @@
+path: .
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: HEALTHY
+  1: DAMAGED
+  2: ROTTEN
+  3: SPROUTED
