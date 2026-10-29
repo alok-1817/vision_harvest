@@ -1,0 +1,44 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ultralytics / weights / runs
+*.pt
+*.onnx
+*.engine
+runs/*
+!runs/fresh_yolov8n_293_final/
+runs/fresh_yolov8n_293_final/*
+!runs/fresh_yolov8n_293_final/weights/
+runs/fresh_yolov8n_293_final/weights/*
+!runs/fresh_yolov8n_293_final/weights/best.pt
+wandb/
+
+# Local captures from camera/YOLO proofs
+captures/
+*jpg
+*.png
+*.mp4
+*.avi
+!docs/**
+
+# Environment
+.env
+.env.*
+
+# Local SQLite
+*.db
+*.sqlite
